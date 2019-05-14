@@ -4,6 +4,7 @@
 
 ### Examples
 https://github.com/oscarvantol/examples-azure-functions
+
 Simple example with a DI setup, using HttpClientFactory and IConfiguration
 
 ### Dependency Injection
