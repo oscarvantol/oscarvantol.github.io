@@ -3,10 +3,6 @@ Oscar van Tol
 19790423
 @Betabitnl @VirtualVaults @oscarvantol
 
-## R&O Show
-Right now I am gathering info for some video or podcast content. 
-The first topics are [here](script1)
-
-## Miniblogs
-
-## Talks
+## { BetaTalks }
+We (@rickvdbosch & I) recorded the first couple of videos called BetaTalks.
+I use these pages as an open notepad, day one notes are [here](script1)
