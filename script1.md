@@ -1,26 +1,17 @@
-# R&O Show
+# { BetaTalks }
 
-## Azure Functions 2
+## Serverless
 
-### Examples
-
-
-- [examples-azure-functions](https://github.com/oscarvantol/examples-azure-functions) *Simple example with a DI setup, using HttpClientFactory and IConfiguration*
-- 
-   
-
-
-### Dependency Injection
+### Azure Functions Dependency Injection
 - Howto setup 
-- Lifetime function class
+- Configuration IOptions
+- [examples-azure-functions](https://github.com/oscarvantol/examples-azure-functions) *Simple example with a DI setup, using HttpClientFactory and IConfiguration*
 
-### Configuration & Secrets
-- MSI-Identity
-- KeyVault
-- IOptions?
-
-### Premium 
+### Azure Functions Premium 
 - Benefits
 - Performance
 - Costs
  
+### SQL Serverless
+- Cold start
+- Cool down policy
