@@ -1,12 +1,18 @@
 # Bio
-Oscar van Tol
-19790423
-@Betabitnl @VirtualVaults @oscarvantol
 
-## { BetaTalks }
+    me: 
+        name: Oscar van Tol
+        twitter: @oscarvantol
+        dayTimeJob: consulting @betabitnl / manager software development @virtualvaults
+        loves: My Kids & Bride, Azure, C#, PaaS, Serverless, .NET Core, ASP.NET Core, Azure Functions, SignalR, AzureDevOps, Angular, TypeScript, giving talks & workshops
+
+
+## Current stuff
+
+
 We (@rickvdbosch & I) recorded the first couple of videos called BetaTalks.
 I use these pages as an open notepad, day one notes are [here](script1)
 
-## Resources
+## Links
 
 [resources](resources)
