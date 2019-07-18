@@ -7,7 +7,7 @@ bio:
     dayTimeJob: 'consulting @betabitnl, 
 manager software development @virtualvaults'
 
-    loves: 'My 4 Kids & Soon to be wife, 
+    loves: 'my 4 Kids & wife, 
 Azure, C#, PaaS, Serverless, .NET Core, 
 ASP.NET Core, Azure Functions, SignalR, 
 AzureDevOps, Angular, TypeScript, 
@@ -16,8 +16,14 @@ giving talks & workshops'
 
 ## Current stuff
 
+### BetaTalks
 We (@rickvdbosch & I) recorded the first couple of videos called BetaTalks.
-I use these pages as an open notepad, day one notes are [here](script1)
+https://www.youtube.com/watch?v=PtLLxiPFi0Q
+https://www.youtube.com/watch?v=Q3cS7955Fwg
+
+We have the next recordings planned in August, looking forward to improve :)
+
+
 
 ## Links
 
