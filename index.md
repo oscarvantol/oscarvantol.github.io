@@ -18,8 +18,8 @@ giving talks & workshops'
 
 ### BetaTalks
 We (@rickvdbosch & I) recorded the first couple of videos called BetaTalks.
-https://www.youtube.com/watch?v=PtLLxiPFi0Q
-https://www.youtube.com/watch?v=Q3cS7955Fwg
+* [Developing Azure Functions](https://www.youtube.com/watch?v=PtLLxiPFi0Q)
+* [Highlights MS BUILD 2019](https://www.youtube.com/watch?v=Q3cS7955Fwg)
 
 We have the next recordings planned in August, looking forward to improve :)
 
