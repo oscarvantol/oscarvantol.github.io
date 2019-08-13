@@ -17,12 +17,18 @@ giving talks & workshops'
 ## Current stuff
 
 ### BetaTalks
-We (@rickvdbosch & I) recorded the first couple of videos called BetaTalks.
+We (@rickvdbosch & I) regularly record videos called BetaTalks.
 * [Highlights MS BUILD 2019](https://www.youtube.com/watch?v=PtLLxiPFi0Q)
 * [Developing Azure Functions](https://www.youtube.com/watch?v=Q3cS7955Fwg)
 
-We have the next recordings planned in August, looking forward to improve :)
+*next topics*
 
+* .NET Core 3, what's coming 
+* C#8 Cool new features
+* Asp.NET Core 3, changes in Startup.cs
+* Configuration in Azure
+* Azure Front Door Service
+  
 
 
 ## Links
