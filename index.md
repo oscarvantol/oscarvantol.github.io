@@ -29,6 +29,7 @@ We (@rickvdbosch & I) regularly record videos called BetaTalks.
 * Configuration in Azure
 * Azure Front Door Service
   
+## Blogs
 
 
 ## Links
