@@ -1,5 +1,4 @@
-### 2019.08.14 ### 
-# It's payback time #
+# It's payback time
 
 *Building software changes all the time, for me it started with writing desktop apps that you would put on a floppy for someone to use.*
 
@@ -32,3 +31,6 @@ If it is something you need to create anyway, it is generic enough that other pe
 *Note: There is a thing to be very aware of, don't let your project become a security issue. If you share or contribute to an open source project you are also letting the world know that you are using it. Make sure nothing gets into the libraries you use that you do not want in there, but this is already the case with everything you are using.*
 
 I wrote this because I believe that not everyone in (tech)companies is aware that their development teams and their products are powered by the vast amount of communities and heroes working on pet projects. **If we increase contributing and sharing in our cultures I believe we can achieve even more.**
+
+2019.08.14
+
