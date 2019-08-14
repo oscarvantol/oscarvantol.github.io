@@ -6,7 +6,7 @@ More than 20 years later I am working with a team at Virtual Vaults building SAA
 and the delivery to the end user changed, but also the way we are able to continuously create, test and ship features with multiple people working closely together.
 
 A big part of being able to build complex systems fast is because we can build on top of layers of abstraction. 
-These days you just don’t build everything from scratch, you use services, packages. **If you would look at your entire stack, 
+These days you just donâ€™t build everything from scratch, you use services, packages. **If you would look at your entire stack, 
 ever wonder how little code that is executed, is actually yours?** And how much of the external code is a library that you are paying for? 
 I am betting that just like the software I am working on, most of the external software is pulled into your project as a package via NuGet or NPM. 
 The majority of these packages have their source code in a Github project and have an open source license.
@@ -18,7 +18,7 @@ Well, there are a few different groups doing this. First of all, enthiousiasts t
 Yes we should, and some of do! But how can we do that, not everyone at the office will be amused if we would fill our day with hobby projects and we can certainly not publish all our source code to the world. There are however a few options to balance it out. 
 
 * The first one is obvious, when finding an issue or missing a feature in something you are using and you are able to fix it, 
-do it and make the pull request, don’t build your internal version and keep it to yourself. 
+do it and make the pull request, donâ€™t build your internal version and keep it to yourself. 
 
 * Another option, and maybe the one that is the most comfortable one starting with is documentation. 
 * A lot of projects also accept changes in their docs, from simple things like correcting spelling or grammar to adding some examples. 
