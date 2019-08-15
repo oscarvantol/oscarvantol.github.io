@@ -33,5 +33,5 @@ I wrote this because I believe that not everyone in (tech)companies is aware tha
 <sub>* Note: There is a thing to be very aware of, don't let your project become a security issue. If you share or contribute to an open source project you are also letting the world know that you are using it. Make sure nothing gets into the libraries you use that you do not want in there! But you are already checking that with everything you are using, right?</sub>
 
 
-2019.08.14
+2019.08.16
 

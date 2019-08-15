@@ -30,7 +30,7 @@ We (@rickvdbosch & I) regularly record videos called BetaTalks.
 * Azure Front Door Service
   
 ## Blogs
--
+- [2019-08-16 It's payback time](blog-payback-time)
 
 ## Links
 
