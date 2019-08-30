@@ -2,7 +2,7 @@
 
 <sub>blogged: 2019.08.16</sub>
 
-# You only pay a small part of your dev team 
+# You are only paying a small part of your dev team 
 
 *The software your team builds relies on a lot of code that is written by people outside your organisation. Are you paying them or thanking them even?*
 

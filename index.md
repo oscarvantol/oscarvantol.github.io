@@ -24,7 +24,7 @@ We (@rickvdbosch & I) regularly record videos called BetaTalks.
 * Azure Front Door Service
   
 ## Blogs
-- [2019-08-16 You only pay a small part of your dev team](blog-payback-time)
+- [2019-08-16 You are only paying a small part of your dev team ](blog-payback-time)
    
 
 ## Planned talks
