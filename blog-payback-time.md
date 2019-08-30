@@ -1,8 +1,12 @@
-# It's payback time
+[< back](index)
 
-*Building software changes all the time, for me it started with writing desktop apps that you would put on a floppy for someone to use.*
+<sub>blogged: 2019.08.16</sub>
 
-More than 20 years later I am working with a team at [Virtual Vaults](https://virtualvaults.com) building SAAS by using PAAS and all the serverless goodies in Azure. Not only infrastructure 
+# You only pay a small part of your dev team 
+
+*The software your team builds relies on a lot of code that is written by people outside your organisation. Are you paying them or thanking them even?*
+
+Building software changes all the time, for me it started with writing desktop apps that you would put on a floppy for someone to use. More than 20 years later I am working with a team at [Virtual Vaults](https://virtualvaults.com) building SAAS by using PAAS and all the serverless goodies in Azure. Not only infrastructure 
 and the delivery to the end user changed, but also the way we are able to continuously create, test and ship features with multiple people working closely together.
 
 A big part of being able to build complex systems fast is because we can build on top of layers of abstraction. 
@@ -28,10 +32,13 @@ do it and make the pull request, don’t build your internal version and keep it
 This will raise some questions, after all someone is paying the bill for this coding time, "is this not our intellectual property?". 
 If it is something you need to create anyway, it is generic enough that other people might be interested in to use and contribute back into, it could be really interesting. Keep in mind that in this scenario you really need awareness and full support from your company.
 
+* You can also pay back in the simple form of a donation. If your organisation heavily relies on a particular project and you really want it to stay healthy it might be wise to donate to the project. If this sounds interesting you should check out [Github sponsors](https://github.blog/2019-05-23-announcing-github-sponsors-a-new-way-to-contribute-to-open-source/).
+
 I wrote this because I believe that not everyone in (tech)companies is aware that their development teams and their products are powered by the vast amount of communities and heroes working on pet projects. **If we increase contributing and sharing in our cultures I believe we can achieve even more.**
 
 <sub>* Note: There is a thing to be very aware of, don't let your project become a security issue. If you share or contribute to an open source project you are also letting the world know that you are using it. Make sure nothing gets into the libraries you use that you do not want in there! But you are already checking that with everything you are using, right?</sub>
 
 
-2019.08.16
+
+[oscarvantol.nl](https://oscarvantol.nl) 
 
