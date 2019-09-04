@@ -15,16 +15,15 @@ We (@rickvdbosch & I) regularly record videos called BetaTalks.
 * [BT1 - Highlights MS BUILD 2019](https://www.youtube.com/watch?v=PtLLxiPFi0Q)
 * [BT2 - Developing Azure Functions](https://www.youtube.com/watch?v=Q3cS7955Fwg)
 * [BT3 - .NET Core 3, what's coming](https://www.youtube.com/watch?v=aA-Rl6JlsEM) 
-* BT4 - C#8 Cool new features
+* [BT4 - C# 8, what's new?](https://www.youtube.com/watch?v=Ib1OSKzevV8)
+* BT5 - Configuration in Azure
 
 *next topics*
-
 * Asp.NET Core 3, changes in Startup.cs
-* Configuration in Azure
 * Azure Front Door Service
   
 ## Blogs
-- [2019-08-16 You are only paying a small part of your dev team ](blog-payback-time)
+- [2019-08-16 You are only paying a small part of your dev team](blog-payback-time)
    
 
 ## Planned talks
