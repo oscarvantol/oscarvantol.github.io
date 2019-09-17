@@ -16,7 +16,7 @@ We (@rickvdbosch & I) regularly record videos called BetaTalks.
 * [BT2 - Developing Azure Functions](https://www.youtube.com/watch?v=Q3cS7955Fwg)
 * [BT3 - .NET Core 3, what's coming](https://www.youtube.com/watch?v=aA-Rl6JlsEM) 
 * [BT4 - C# 8, what's new?](https://www.youtube.com/watch?v=Ib1OSKzevV8)
-* BT5 - Configuration in Azure
+* [BT5 - All about configuration in Azure](https://www.youtube.com/watch?v=MGncVTcgOpw)
 
 *next topics*
 * Asp.NET Core 3, changes in Startup.cs
