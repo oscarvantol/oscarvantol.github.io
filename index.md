@@ -19,11 +19,11 @@ We (@rickvdbosch & I) regularly record videos called BetaTalks.
 * [BT5 - All about configuration in Azure](https://www.youtube.com/watch?v=MGncVTcgOpw)
 
 *next topics*
-* Asp.NET Core 3, changes in Startup.cs
 * Azure Front Door Service
   
 ## Blogs
 - [2019-08-16 You are only paying a small part of your dev team](blog-payback-time)
+- 2019-08-25 Azure Front Door Service
    
 
 ## Planned talks
