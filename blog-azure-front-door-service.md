@@ -1,16 +1,24 @@
 [< back](index)
 
-<sub>blogged: 2019.09.25</sub>
+<sub>blogged: 2019.09.30</sub>
 
 # Orchestrating your incoming traffic like the big boys
 
-Creating a large application and exposing it to the web has a lot of challenges. You will have to think about performance, security, reliability. You are probably not Netflix but you might have an application that consists out of multiple smaller apps and services. Also you might have your users located in multiple parts of the world. 
+Creating a large application and exposing it to the web has a lot of challenges. You will have to think about performance, security, reliability. **You are probably not Netflix** but you might have an application that:
+- composed out of different (micro)services
+- highly available and fast from anywhere on the globe
+- needs specific routing rules for something (a-b testing?)
+
 
 ## Azure Front Door Service
 
-There are a lot of different solutions targeting a routing puzzle like this, but in this blog we will dive into the capabilities of "Azure Front Door Service" (from here FDS because I'm lazy). FDS is a global service takes care of routing and monitoring your HTTP traffic. FDS is a nice name because it is a service that provides an entry point for your web application. It actually provides you multiple entry points, they are located all over the world and from the nearest 'point of presence' the route to your app will be determined by FDS.
+There are a lot of different solutions that might solve your routing puzzle, but in this blog we will dive into the capabilities of "Azure Front Door Service" (from here FDS because I'm lazy). 
+
+FDS is a **global** service takes care of routing and monitoring your HTTP traffic. FDS is a nice name because it is a service that provides an entry point for your web application. It actually provides you multiple entry points, they are located all over the world and from the nearest 'point of presence' the route to your app will be determined by FDS. 
 
 ![alt text](https://oscarvantol.nl/assets/blog-afd/monsters.jpg "Monsters Inc")
+
+The best way of exploring new stuff for me is diving straight in. For most Azure services it is really easy and low-cost to try something out and deleting it afterwards. For this blog I did just that and created an FDS and while making some screenshots along the way.
 
 ## Setting up FDS
 
@@ -58,7 +66,7 @@ There are multiple scenarios that might benefit from a service like FDS. Most of
 - Routing traffic to the nearest hosts
 - Failover (to different other region)
 - A-B testing or canary releases
-- All of the above!
+- **All of the above!**
 
 ## Is this for you?
 This is a service that you can use for big and complex applications with a global presence, considering this the price isn't too bad. But this might be a bit overkill for your side project. Please check out the [pricing page](https://azure.microsoft.com/en-us/pricing/details/frontdoor/) to prevent big surprises.
