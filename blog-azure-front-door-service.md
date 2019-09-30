@@ -4,7 +4,7 @@
 
 # Orchestrating your incoming traffic like the big boys
 
-Creating a large application and exposing it to the web has a lot of challenges. You will have to think about performance, security, reliability. **You are probably not Netflix** but you might have an application that:
+Creating a large application and exposing it to the web has a lot of challenges. You will have to think about performance, security, reliability. **You are probably not Netflix** but you might have an application that is:
 - composed out of different (micro)services
 - highly available and fast from anywhere on the globe
 - needs specific routing rules for something (a-b testing?)
