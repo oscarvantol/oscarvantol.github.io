@@ -17,10 +17,8 @@ We (@rickvdbosch & I) regularly record videos called BetaTalks.
 * [BT3 - .NET Core 3, what's coming](https://www.youtube.com/watch?v=aA-Rl6JlsEM) 
 * [BT4 - C# 8, what's new?](https://www.youtube.com/watch?v=Ib1OSKzevV8)
 * [BT5 - All about configuration in Azure](https://www.youtube.com/watch?v=MGncVTcgOpw)
+* [BT6 - Azure Front Door](https://www.youtube.com/watch?v=dE002Gntj6Y&)
 
-*next topics*
-* Azure Front Door Service
-  
 ## Blogs
 - [2019-08-16 You are only paying a small part of your dev team](blog-payback-time)
 - [2019-09-30 Orchestrating your incoming traffic like the big boys](blog-azure-front-door-service)
