@@ -11,7 +11,7 @@
 
 
 # BetaTalks
-We (@rickvdbosch & I) regularly record videos called BetaTalks.
+We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.youtube.com/playlist?list=PLCLCtgDNNiJR_LDx6RT8X50VrKAH3_49B).
 * [BT1 - Highlights MS BUILD 2019](https://www.youtube.com/watch?v=PtLLxiPFi0Q)
 * [BT2 - Developing Azure Functions](https://www.youtube.com/watch?v=Q3cS7955Fwg)
 * [BT3 - .NET Core 3, what's coming](https://www.youtube.com/watch?v=aA-Rl6JlsEM) 
