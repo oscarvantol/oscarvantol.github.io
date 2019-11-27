@@ -17,9 +17,10 @@ We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.you
 * [BT3 - .NET Core 3, what's coming](https://www.youtube.com/watch?v=aA-Rl6JlsEM) 
 * [BT4 - C# 8, what's new?](https://www.youtube.com/watch?v=Ib1OSKzevV8)
 * [BT5 - All about configuration in Azure](https://www.youtube.com/watch?v=MGncVTcgOpw)
-* [BT6 - Azure Front Door](https://www.youtube.com/watch?v=dE002Gntj6Y&)
-* [BT7 - Azure Functions News](https://www.youtube.com/watch?v=OWbuWLBJNk4&list=PLCLCtgDNNiJR_LDx6RT8X50VrKAH3_49B)
+* [BT6 - Azure Front Door](https://www.youtube.com/watch?v=dE002Gntj6Y)
+* [BT7 - Azure Functions News](https://www.youtube.com/watch?v=OWbuWLBJNk4)
 * [BT8 - Everything about Blazor - Part I: Blazor Server](https://www.youtube.com/watch?v=eBxDQ45q_ak)
+* [BT9 - Everything about Blazor - Part II: Blazor WebAssembly](https://www.youtube.com/watch?v=Lh2Qb1oXQ1U)
 
 # Blogs
 - [2019-08-16 You are only paying a small part of your dev team](blog-payback-time)
