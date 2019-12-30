@@ -21,6 +21,7 @@ We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.you
 * [BT7 - Azure Functions News](https://www.youtube.com/watch?v=OWbuWLBJNk4)
 * [BT8 - Everything about Blazor - Part I: Blazor Server](https://www.youtube.com/watch?v=eBxDQ45q_ak)
 * [BT9 - Everything about Blazor - Part II: Blazor WebAssembly](https://www.youtube.com/watch?v=Lh2Qb1oXQ1U)
+* [BT10 - ASP.NET Core 3.0 - Why you should care](https://www.youtube.com/watch?v=egQfCWogPho)
 
 # Blogs
 - [2019-08-16 You are only paying a small part of your dev team](blog-payback-time)
