@@ -22,10 +22,14 @@ We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.you
 * [BT8 - Everything about Blazor - Part I: Blazor Server](https://www.youtube.com/watch?v=eBxDQ45q_ak)
 * [BT9 - Everything about Blazor - Part II: Blazor WebAssembly](https://www.youtube.com/watch?v=Lh2Qb1oXQ1U)
 * [BT10 - ASP.NET Core 3.0 - Why you should care](https://www.youtube.com/watch?v=egQfCWogPho)
+* [BT11 - gRPC in .NET Core 3.0](https://www.youtube.com/watch?v=CC7LrklA0Nk)
+* [BT12 - Azure Cosmos DB: Features and EF Core](https://www.youtube.com/watch?v=dAihkurRTDY)
+
 
 # Blogs
 - [2019-08-16 You are only paying a small part of your dev team](blog-payback-time)
 - [2019-09-30 Orchestrating your incoming traffic like the big boys](blog-azure-front-door-service)
+- [2020-02-23 Writing a custom task for Azure Devops Pipelines](blog-azure-piplines.md)
    
 
 # Talks
