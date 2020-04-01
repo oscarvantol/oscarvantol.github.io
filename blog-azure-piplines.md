@@ -30,9 +30,9 @@ Noooooo! Not done, I needed to write some documentation on our wiki or at least 
 
 **What was the benefit of adding these extra steps?**
 * I forced myself to write some documentation and clean up.
-* I might help someone write an extension in the future.
+* This might be of help for someone else writing an extension.
 * I might help my future self in need of something similar.
-* I might actually have someone else using use my extension!!!
+* Someone else might actually use my extension😱
 
  ![Marketplace](assets/blog-ape/extension.png "Azure DevOps Marketplace")
 

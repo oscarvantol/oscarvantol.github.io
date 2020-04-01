@@ -4,7 +4,7 @@
    twitter: "@oscarvantol",
    devto: "https://dev.to/oscarvantol",
    linkedin: "https://www.linkedin.com/in/oscar-van-tol/",
-   jobs: ["consulting @betabitnl", "manager software development @virtualvaults"],
+   jobs: ["principal cloud architect @betabitnl", "manager software development @virtualvaults"],
    passions: ["my 4 Kids & wife","Azure", "C#", "PaaS", "Serverless", ".NET Core", "ASP.NET Core", "Azure Functions", "SignalR", "AzureDevOps", "Angular", "TypeScript", "giving talks & workshops"]
 }
 ```
@@ -12,6 +12,8 @@
 
 # BetaTalks
 We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.youtube.com/playlist?list=PLCLCtgDNNiJR_LDx6RT8X50VrKAH3_49B).
+* [BT14 - Azure Cosmos DB: The premium Table Storage endpoint](https://www.youtube.com/watch?v=_S83vDsbwKk)
+* [BT13 - Azure Cosmos DB: Using Azure Functions](https://www.youtube.com/watch?v=yxZZ0vzHLhc)
 * [BT12 - Azure Cosmos DB: Features and EF Core](https://www.youtube.com/watch?v=dAihkurRTDY)
 * [BT11 - gRPC in .NET Core 3.0](https://www.youtube.com/watch?v=CC7LrklA0Nk)
 * [BT10 - ASP.NET Core 3.0 - Why you should care](https://www.youtube.com/watch?v=egQfCWogPho)
@@ -25,12 +27,10 @@ We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.you
 * [BT2 - Developing Azure Functions](https://www.youtube.com/watch?v=Q3cS7955Fwg)
 * [BT1 - Highlights MS BUILD 2019](https://www.youtube.com/watch?v=PtLLxiPFi0Q)
 
-
 # Blogs
 - [2020-02-23 Writing an Azure DevOps Pipeline extension](blog-azure-piplines.md)
 - [2019-09-30 Orchestrating your incoming traffic like the big boys](blog-azure-front-door-service)
 - [2019-08-16 You are only paying a small part of your dev team](blog-payback-time)
-   
 
 # Talks
 
