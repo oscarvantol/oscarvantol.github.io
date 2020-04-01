@@ -1,4 +1,5 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 name: oscarvantol.nl
 title: oscarvantol.nl
 url: https://oscarvantol.nl
+show_downloads: false
