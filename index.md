@@ -9,8 +9,7 @@
 }
 ```
 
-
-# BetaTalks
+# Videos
 We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.youtube.com/playlist?list=PLCLCtgDNNiJR_LDx6RT8X50VrKAH3_49B).
 * [BT15 - The new Microsoft Edge](https://www.youtube.com/watch?v=Ak4gilwGBCY)
 * [BT14 - Azure Cosmos DB: The premium Table Storage endpoint](https://www.youtube.com/watch?v=_S83vDsbwKk)
@@ -32,16 +31,6 @@ We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.you
 - [2020-02-23 Writing an Azure DevOps Pipeline extension](blog-azure-piplines.md)
 - [2019-09-30 Orchestrating your incoming traffic like the big boys](blog-azure-front-door-service)
 - [2019-08-16 You are only paying a small part of your dev team](blog-payback-time)
-
-# Talks
-
-## From .Net core 3, everything else is legacy
-- [Slides](https://www.slideshare.net/rickvdbosch/from-net-core-3-all-the-rest-will-be-legacy)
-- [C# 8 examples](https://github.com/oscarvantol/backtotheframework)
-- [Blazor & gRPC examples](https://github.com/rickvdbosch/netcore3-examples)
-
-2019.11.07 Phind, Eindhoven Airport
-
 
 ## Links
 [resources](resources)
