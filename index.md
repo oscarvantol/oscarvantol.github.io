@@ -11,6 +11,7 @@
 
 # Videos
 We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.youtube.com/playlist?list=PLCLCtgDNNiJR_LDx6RT8X50VrKAH3_49B).
+* [BT16 - Azure Pipelines *"Recorded from 127.0.0.1"* ](https://www.youtube.com/watch?v=slGD2mqwbks)
 * [BT15 - The new Microsoft Edge](https://www.youtube.com/watch?v=Ak4gilwGBCY)
 * [BT14 - Azure Cosmos DB: The premium Table Storage endpoint](https://www.youtube.com/watch?v=_S83vDsbwKk)
 * [BT13 - Azure Cosmos DB: Using Azure Functions](https://www.youtube.com/watch?v=yxZZ0vzHLhc)
