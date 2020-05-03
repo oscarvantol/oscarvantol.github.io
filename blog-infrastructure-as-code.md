@@ -4,7 +4,7 @@
 
 # Infrastructure as code on Azure
 
-*From the moment a developer writes a piece of code to support a new feature or fix a bug, a journey starts. This journey will hopefully start with some sort of commit and push into a source control system. The end goal of the journey is pretty clear, production (whatever that is in the context). What happens in between can be a short and simple or long and complicated, the time the journey takes will mostly be determined by the quality assurance process and the level of automation of the CI/CD pipeline.*
+*From the moment a developer writes a piece of code to support a new feature or fix a bug, a journey starts. This journey will hopefully start with some sort of commit and push into a source control system. The end goal of the journey is pretty clear, production (whatever that is in the context). What happens in between can be short and simple or long and complicated, the time the journey takes will mostly be determined by the quality assurance process and the level of automation of the CI/CD pipeline.*
 
 
 ## Build and Release
@@ -26,7 +26,7 @@ Based on empirical evidence, there will be a remote possibility that this will h
 
 ## Infrastructure as code
 
-Creating your resources automatically will pay off really quickly. Let's say you dream up some new piece of code that uses some storage service and web service in Azure, it is only a few clicks to create it in the portal. But you will probably do this in a safe development environment were you have all the access you can dream of. Your two new services and their configuration will also be deployed in one or more test environments and the production environment. Scripting and parameterizing the creation of these resources them will make you more efficient really quickly. An extra benefit is that your scripts can be reviewed and that issues with for example naming convention can be spotted early on. If you treat you scripts as code and store them in a version control system you have perfect historical record of how a resource was created.
+Creating your resources automatically will pay off real quickly. Let's say you dream up some new piece of code that uses some storage service and web service in Azure, it is only a few clicks to create these in the Azure Portal. But you will probably do this in a safe development environment were you have all the access you can dream of. Your two new services and their configuration will also be deployed in one or more test environments and the production environment. Scripting and parameterizing the creation of these resources them will make you more efficient fast. An extra benefit is that your scripts can be reviewed and that issues with for example naming convention can be spotted early on. If you treat you scripts as code and store them in a version control system you have perfect historical record of how a resource was created.
 
 **Great let's do this! Tell me how!**
 
