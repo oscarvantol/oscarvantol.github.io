@@ -1,6 +1,6 @@
 [< back](index)
 
-<sub>blogged: 2020.04.27</sub>
+<sub>blogged: 2020.04.29</sub>
 
 # Infrastructure as code on Azure
 
