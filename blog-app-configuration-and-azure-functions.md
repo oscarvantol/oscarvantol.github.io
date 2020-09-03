@@ -2,6 +2,7 @@
 
 <sub>blogged: 2020.09.02</sub>
 
+
 # Azure App Configuration and Azure Functions
 Azure App configuration is an amazing service that we have been using in our project to centralize our configuration. If you are unfamiliar with the service I suggest reading [Azure App Configuration: an introduction](https://www.rickvandenbosch.net/blog/azure-app-configuration-an-introduction/) by [@rickvdbosch](https://twitter.com/rickvdbosch).
 
@@ -35,7 +36,27 @@ In Azure Functions you cannot really get into the HostBuilder setup like in a we
 
 The biggest issue is that the configuration is already setup by the time the code in the 'Configure' method is called. My plan was to create a new configuration and replace it in the service collection. 
 
+```
+    var configBuilder = new ConfigurationBuilder();
+    // Add env vars to the new config
+    configBuilder.AddEnvironmentVariables();
+
+    // Replace IConfiguration
+    builder.Services.RemoveAll<IConfiguration>();
+    builder.Services.AddSingleton<IConfiguration>(configBuilder.Build());
+```
+
+---
+
+**Heads up!** After publishing this I got a tip on twitter to use [IFunctionsConfigurationBuilder ](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection#customizing-configuration-sources) instead. I will update the code samples and the blog **today (CET)**.
+
+---
+
 A bit of tweaking and testing later I ended up with the following implementation. This Adds **Azure App Configuration** and **Azure Key Vault** to be able to leverage the Key Vault References. What you can also see in here that it only requires an endpoint to App Configuration because we are using Azure Identity's Default Credential to authentication. You can also use a connection string, but the objective was to remove the secrets from configuration.
+
+
+
+_Note: the code sample will be updated to use IFunctionsConfigurationBuilder_ 
 
 ```
 using System;
