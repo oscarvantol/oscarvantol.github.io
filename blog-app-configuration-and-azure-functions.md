@@ -136,7 +136,8 @@ This part was already implemented in my functions, so I didn't have to do anythi
 ```
 
 The better way would be to use the **IOptions** pattern as shown in the next example:
-**In the Configure method in StartUp**
+
+**Inside Configure method in StartUp**
 ```
         builder.Services.AddOptions<ExampleSettingsConfig>()
          .Configure<IConfiguration>((configSection, configuration) =>
@@ -144,7 +145,7 @@ The better way would be to use the **IOptions** pattern as shown in the next exa
                 configuration.GetSection("ExampleTestSettings").Bind(configSection);
          });
 ```
-**Function constructor**
+**The Function constructor**
 ```
         public Function1(IOptions<ExampleSettingsConfig> exampleOptions)
         {
