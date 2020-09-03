@@ -46,22 +46,16 @@ The biggest issue is that the configuration is already setup by the time the cod
     builder.Services.AddSingleton<IConfiguration>(configBuilder.Build());
 ```
 
----
-
-**Heads up!** After publishing this I got a tip on twitter to use [IFunctionsConfigurationBuilder ](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection#customizing-configuration-sources) instead. I will update the code samples and the blog **today (CET)**.
-
----
+> **_Update:_**  After publishing the initial version of this post I got a tip from [Anthony Chu](https://twitter.com/nthonyChu) to use [IFunctionsConfigurationBuilder ](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection#customizing-configuration-sources) instead. This new recommended way that I somehow missed in my quest makes this so much more clean! To be able to use this you need at least version 1.1.0-preview1 of the [Microsoft.Azure.Functions.Extensions](https://www.nuget.org/packages/Microsoft.Azure.Functions.Extensions/) package installed. Since I have absolutely no fear of preview packages that is not a problem.
 
 A bit of tweaking and testing later I ended up with the following implementation. This Adds **Azure App Configuration** and **Azure Key Vault** to be able to leverage the Key Vault References. What you can also see in here that it only requires an endpoint to App Configuration because we are using Azure Identity's Default Credential to authentication. You can also use a connection string, but the objective was to remove the secrets from configuration.
 
-
-
-_Note: the code sample will be updated to use IFunctionsConfigurationBuilder_ 
 
 ```
 using System;
 using Azure.Identity;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
+using Microsoft.Extensions.Azure;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
@@ -71,14 +65,13 @@ namespace AppConfigurationExample
 {
     public class StartUp : FunctionsStartup
     {
-        public override void Configure(IFunctionsHostBuilder builder)
+        public override void ConfigureAppConfiguration(IFunctionsConfigurationBuilder builder)
         {
             //get the original configuration
-            var tmpConfig = GetConfiguration(builder);
+            var tmpConfig = builder.ConfigurationBuilder.Build();
 
             // create a new configurationbuilder and add appconfiguration
-            var configBuilder = new ConfigurationBuilder();
-            configBuilder.AddAzureAppConfiguration((options) =>
+            builder.ConfigurationBuilder.AddAzureAppConfiguration((options) =>
             {
                 var defaultAzureCredential = GetDefaultAzureCredential();
 
@@ -88,23 +81,21 @@ namespace AppConfigurationExample
                     {
                         kvOptions.SetCredential(defaultAzureCredential);
                     });
+
+                // configure appconfiguation features you want;
+                // options.UseFeatureFlags();
+                // options.Select(KeyFilter.Any, LabelFilter.Null);
             });
 
-            // Add env vars to the new config
-            configBuilder.AddEnvironmentVariables();
+        }
 
-            // replace IConfiguration
-            builder.Services.RemoveAll<IConfiguration>();
-            builder.Services.AddSingleton<IConfiguration>(configBuilder.Build());
-
-            // continue the DI setup
+        public override void Configure(IFunctionsHostBuilder builder)
+        {
+            // Setup DI
             //builder.Services.AddScoped<>();
             //builder.Services.AddTransient<>();
             //builder.Services.AddSingleton<>();
         }
-
-        private IConfiguration GetConfiguration(IFunctionsHostBuilder builder) =>
-            builder.Services.BuildServiceProvider().GetService<IConfiguration>();
 
         private DefaultAzureCredential GetDefaultAzureCredential() => new DefaultAzureCredential(new DefaultAzureCredentialOptions
         {
@@ -145,7 +136,7 @@ This part was already implemented in my functions, so I didn't have to do anythi
 ```
 
 The better way would be to use the **IOptions** pattern as shown in the next example:
-**In StartUp**
+**In the Configure method in StartUp**
 ```
         builder.Services.AddOptions<ExampleSettingsConfig>()
          .Configure<IConfiguration>((configSection, configuration) =>
@@ -161,18 +152,16 @@ The better way would be to use the **IOptions** pattern as shown in the next exa
         }
 ```
 
-## But there is a warning...
-This implementation has some limitations described [here](https://github.com/Azure/azure-functions-host/issues/4464#issuecomment-513017446). The configuration needed for the binding triggers cannot be moved to App Configuration because it is used outside your Azure Function code by the platform. If you would have a Service Bus trigger, the scale controller that will determine if it needs to spin up hosts for your functions needs access to the queue or subscription you are listening to. I am sure this has the attention of the team responsible, but I can imagine it is not an easy problem to solve.
+> **But there is a warning...**
+>This implementation has some limitations described [here](https://github.com/Azure/azure-functions-host/issues/4464#issuecomment-513017446). The configuration needed for the binding triggers cannot be moved to App Configuration because it is used outside your Azure Function code by the platform. If you would have a Service Bus trigger, the scale controller that will determine if it needs to spin up hosts for your functions needs access to the queue or subscription you are listening to. I am sure this has the attention of the team responsible, but I can imagine it is not an easy problem to solve.
+
+## What else did we get?
+Next to the details options you have in the Azure App Configuration setup like setting up label filters you also get the Feature Flags feature. You can enable this by calling 'options.UseFeatureFlags()' in the setup.
 
 ## Sharing is caring
 
 **Example code**
 I added a simple example implementation on GitHub for anyone to do whatever they want with it. You can find it [here](https://github.com/oscarvantol/examples-azure-functions/tree/master/AppConfigurationExample).
-
-**NuGet package**
-Because we have a lot of Azure Functions with similar setup, I created a NuGet package and published it on our internal Azure DevOps feed. At the moment I am looking in to make it a bit more generic and share it with everyone. Once I manage to do that, I'll drop a link.
-
-
 
 
 [oscarvantol.nl](https://oscarvantol.nl) 
