@@ -2,7 +2,8 @@
 
 * [serverlesslibrary.net](https://www.serverlesslibrary.net/)
 * [rickvandenbosch.net](https://www.rickvandenbosch.net/)
-
+* [Serverless September](https://www.betabit.nl/serverless-september)
+  
 ## Docs
 
 * [What's new in .NET Core 3.0](https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-core-3-0)

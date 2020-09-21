@@ -11,6 +11,10 @@
 
 # Videos
 We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.youtube.com/playlist?list=PLCLCtgDNNiJR_LDx6RT8X50VrKAH3_49B).
+* [BT20 - Azure Static Web Apps: A preview](https://www.youtube.com/watch?v=t4kwjxmUSI4)
+* [BT19 - Cosmos DB Serverless: What's to come](https://www.youtube.com/watch?v=w0MY_lC3XBM)
+* [BT18 - SQL Database Serverless: Possibilities and benefits](https://www.youtube.com/watch?v=jz2dTJ7Nx0E)
+* [BT17 - Highlights Microsoft Build 2020 *"Recorded from 127.0.0.1"*](https://www.youtube.com/watch?v=O2ddEFGKiFk)
 * [BT16 - Azure Pipelines *"Recorded from 127.0.0.1"* ](https://www.youtube.com/watch?v=slGD2mqwbks)
 * [BT15 - The new Microsoft Edge](https://www.youtube.com/watch?v=Ak4gilwGBCY)
 * [BT14 - Azure Cosmos DB: The premium Table Storage endpoint](https://www.youtube.com/watch?v=_S83vDsbwKk)
