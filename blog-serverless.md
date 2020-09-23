@@ -27,3 +27,8 @@ This power that I mentioned is also an interesting subject. Another 'drawback' o
 ## Now what?
 
 Serverless is here to stay, we will definitely see more evolution and maybe different naming in the future. It is not that you should start using Serverless for everything but it is a mature option to consider. Picking the right tool for the job is really important, this means that you should have multiple tools in your belt and you should know how they work. Thanks to the cloud we moved far away from having just a database and a webserver as tools to create.
+
+
+### Resources: (todo)
+- blogs bindings and triggers, static web apps
+- videos: betatalks
