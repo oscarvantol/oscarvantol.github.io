@@ -1,7 +1,7 @@
 [< back](index)
 
 <sub>blogged: 2020.09.02</sub>
-
+<sub>updated: 2020.09.23</sub>
 
 # Azure App Configuration and Azure Functions
 Azure App configuration is an amazing service that we have been using in our project to centralize our configuration. If you are unfamiliar with the service I suggest reading [Azure App Configuration: an introduction](https://www.rickvandenbosch.net/blog/azure-app-configuration-an-introduction/) by [@rickvdbosch](https://twitter.com/rickvdbosch).
@@ -48,6 +48,8 @@ The biggest issue is that the configuration is already setup by the time the cod
 
 > **_Update:_**  After publishing the initial version of this post I got a tip from [Anthony Chu](https://twitter.com/nthonyChu) to use [IFunctionsConfigurationBuilder ](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection#customizing-configuration-sources) instead. This new recommended way that I somehow missed in my quest makes this so much more clean! To be able to use this you need at least version 1.1.0-preview1 of the [Microsoft.Azure.Functions.Extensions](https://www.nuget.org/packages/Microsoft.Azure.Functions.Extensions/) package installed. Since I have absolutely no fear of preview packages that is not a problem.
 
+> **_Another update:_** The [Microsoft.Azure.Functions.Extensions 1.1.0](https://www.nuget.org/packages/Microsoft.Azure.Functions.Extensions/) package is now out of preview. 
+
 A bit of tweaking and testing later I ended up with the following implementation. This Adds **Azure App Configuration** and **Azure Key Vault** to be able to leverage the Key Vault References. What you can also see in here that it only requires an endpoint to App Configuration because we are using Azure Identity's Default Credential to authentication. You can also use a connection string, but the objective was to remove the secrets from configuration.
 
 
@@ -68,7 +70,7 @@ namespace AppConfigurationExample
         public override void ConfigureAppConfiguration(IFunctionsConfigurationBuilder builder)
         {
             //get the original configuration
-            var tmpConfig = builder.ConfigurationBuilder.Build();
+            var tmpConfig = builder.GetContext().Configuration;
 
             // create a new configurationbuilder and add appconfiguration
             builder.ConfigurationBuilder.AddAzureAppConfiguration((options) =>
@@ -163,6 +165,7 @@ Next to the details options you have in the Azure App Configuration setup like s
 
 **Example code**
 I added a simple example implementation on GitHub for anyone to do whatever they want with it. You can find it [here](https://github.com/oscarvantol/examples-azure-functions/tree/master/AppConfigurationExample).
+
 
 
 [oscarvantol.nl](https://oscarvantol.nl) 
