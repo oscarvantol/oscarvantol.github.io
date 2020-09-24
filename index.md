@@ -33,9 +33,10 @@ We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.you
 * [BT1 - Highlights MS BUILD 2019](https://www.youtube.com/watch?v=PtLLxiPFi0Q)
 
 # Blogs
-- [2020-09-02 App Configuration and Azure Functions](blog-app-configuration-and-azure-functions.md)
-- [2020-04-29 Infrastructure as code on Azure](blog-infrastructure-as-code.md)
-- [2020-02-23 Writing an Azure DevOps Pipeline extension](blog-azure-piplines.md)
+- [2020-09-24 The state of the cloud: serverless](blog-serverless)
+- [2020-09-02 App Configuration and Azure Functions](blog-app-configuration-and-azure-functions)
+- [2020-04-29 Infrastructure as code on Azure](blog-infrastructure-as-code)
+- [2020-02-23 Writing an Azure DevOps Pipeline extension](blog-azure-piplines)
 - [2019-09-30 Orchestrating your incoming traffic like the big boys](blog-azure-front-door-service)
 - [2019-08-16 You are only paying a small part of your dev team](blog-payback-time)
 
