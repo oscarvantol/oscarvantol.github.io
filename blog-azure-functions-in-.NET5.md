@@ -8,7 +8,7 @@ In November of 2020 .NET 5 got released, the promise of one dot net. The 'core' 
 Right from the release we could start using .NET 5 in for example Azure App Service but for Azure Functions this was not the case.
 
 ## Why wasn't it there already?
-The reason that this is a bit more challenging is because the way the .NET model for Azure Function is implemented. The functions that you create will build a library that is loaded dynamically and hosted inside a running process. That means that that hosted process determines what version of .NET running. Azure Functions V1 was running .NET Full Framework and from V2 this was .NET core. The design originates from Azure WebJobs and as you can imagine this has some history by now. All this makes it a lot of work to get every to a next version of .NET but also to get everything on the Azure side working side by side with a lot of versions.
+The reason that this is a bit more challenging is because the way the .NET model for Azure Function is implemented. The functions that you create will build a library that is loaded dynamically and hosted inside a running process. That means that that hosted process determines what version of .NET running. Azure Functions V1 was running .NET Full Framework and from V2 this was .NET core. The design of Azure Functions originates from Azure WebJobs and as you can imagine these libraries have some history by now. This makes it a lot of work to get every to a next version of .NET but also to get everything on the Azure side working side by side with a lot of versions.
 
 ## What's different?
 By the end of 2020 the team [reported](https://techcommunity.microsoft.com/t5/apps-on-azure/net-5-support-on-azure-functions/ba-p/1973055) that they would start building a new model for .NET, the "out-of-process" or "isolated" model. This model means that the application you build is no longer loaded inside the host but it is running by itself and communicating with the Functions runtime. This model is similar to the way all other (non .NET) languages run in Azure Functions.
@@ -21,12 +21,13 @@ The loose coupling means less possibility for dependency conflicts that you migh
 ## Whats the catch?
 It will definitely take some time to upgrade your functions, the leap might be even bigger than going from v1 to v2. The new model makes a lot of sense, feels clean and light weight but is also not as mature yet. A lot of features that we are used to are not there yet. The main branch is moving pretty fast and apis are being opened up for all kinds extensibility, be sure to monitor that.
 
- The elephant in the room is most definitely Durable Functions. The design of DF and rich bindings rely on the tight coupling that we no longer have. It is on the roadmap to get this back but this will take some time because in November there is another LTS release where the team needs to focus on because the class library model will be supported in .NET 6. 
+ The elephant in the room is most definitely Durable Functions. The design of DF and rich bindings rely on the tight coupling that we no longer have. It is on the roadmap to get this back but this will take some time. In November there is a .NET LTS release where the class library model needs to be supported. After the .NET 6 release the team will focus on getting DF in by .NET 7.
 
 ## What should I do?
-The new model is the future of Azure Functions for .NET and I would recommend getting some experience with it, but be aware it is not ready yet for all workloads. Early adopters and teams that thrive on the edge of chaos will be fine with juggling different models at the same time. But if you move a bit more carefully or  rely on Durable Functions you have years of support ahead going from .NET core 3.1 to .NET 6. 
+The new model is the future of Azure Functions for .NET and I would recommend getting some experience with it, but be aware it is not ready yet for all workloads. Early adopters and teams that thrive on the edge of chaos will be fine with juggling different models at the same time. 
+But if you move a bit more carefully or rely on Durable Functions you still have years of support ahead going from .NET core 3.1 to .NET 6. 
 
-## Show me how
+## Show me how!
 If you want to get started, go to this [readme](https://github.com/Azure/azure-functions-dotnet-worker/blob/main/README.md) on GitHub. In the same repository you can find a lot of [Samples](https://github.com/Azure/azure-functions-dotnet-worker/tree/main/samples) that the team created. 
 
 > Be sure to check the [Known issues](https://github.com/Azure/azure-functions-dotnet-worker/wiki/Known-issues) prevent frustration.
