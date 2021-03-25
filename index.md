@@ -10,7 +10,15 @@
 ```
 
 # Videos
-We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.youtube.com/playlist?list=PLCLCtgDNNiJR_LDx6RT8X50VrKAH3_49B).
+We regularly record videos called [BetaTalks](https://www.youtube.com/playlist?list=PLCLCtgDNNiJR_LDx6RT8X50VrKAH3_49B).
+
+* [BT27 - C# 9.0: What's new?](https://www.youtube.com/watch?v=3YVdFDC1O6E)
+* [BT26 - Azure DevOps Pipelines: YAML vs. Classic UI](https://www.youtube.com/watch?v=AsghfdAFOcw)
+* [BT25 - How to make a k-nearest neighbor algorithm from scratch](https://www.youtube.com/watch?v=ukxAotDw4TE)
+* [BT24 - How to make a linear regression algorithm from scratch](https://www.youtube.com/watch?v=eSobnwt7ndo)
+* [BT23 - Cognitive Services: the quickest way to make your app intelligent](https://www.youtube.com/watch?v=5jvRB7nbsig)
+* [BT22 - Algorithms in Machine Learning you should be familiar with](https://www.youtube.com/watch?v=4hnVvAxIvy0)
+* [BT21 - AI as a business tool - How to get started](https://www.youtube.com/watch?v=7TYIC5PwSCk)
 * [BT20 - Azure Static Web Apps: A preview](https://www.youtube.com/watch?v=t4kwjxmUSI4)
 * [BT19 - Cosmos DB Serverless: What's to come](https://www.youtube.com/watch?v=w0MY_lC3XBM)
 * [BT18 - SQL Database Serverless: Possibilities and benefits](https://www.youtube.com/watch?v=jz2dTJ7Nx0E)
@@ -33,6 +41,7 @@ We (@rickvdbosch & I) regularly record videos called [BetaTalks](https://www.you
 * [BT1 - Highlights MS BUILD 2019](https://www.youtube.com/watch?v=PtLLxiPFi0Q)
 
 # Blogs
+- [2021-03-26 Azure Functions in .NET5](blog-azure-functions-in-.NET5)
 - [2020-09-24 The state of the cloud: serverless](blog-serverless)
 - [2020-09-02 App Configuration and Azure Functions](blog-app-configuration-and-azure-functions)
 - [2020-04-29 Infrastructure as code on Azure](blog-infrastructure-as-code)
