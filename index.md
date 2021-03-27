@@ -41,7 +41,7 @@ We regularly record videos called [BetaTalks](https://www.youtube.com/playlist?l
 * [BT1 - Highlights MS BUILD 2019](https://www.youtube.com/watch?v=PtLLxiPFi0Q)
 
 # Blogs
-- [2021-03-26 Azure Functions in .NET5](blog-azure-functions-in-.NET5)
+- [2021-03-27 Azure Functions in .NET 5 and beyond](blog-azure-functions-in-.NET5)
 - [2020-09-24 The state of the cloud: serverless](blog-serverless)
 - [2020-09-02 App Configuration and Azure Functions](blog-app-configuration-and-azure-functions)
 - [2020-04-29 Infrastructure as code on Azure](blog-infrastructure-as-code)
