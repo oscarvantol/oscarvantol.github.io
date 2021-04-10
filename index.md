@@ -1,15 +1,33 @@
+# Bio
+
 ```
 {
    name: "Oscar van Tol",
    twitter: "@oscarvantol",
+   github: "https://github.com/oscarvantol",
    devto: "https://dev.to/oscarvantol",
    linkedin: "https://www.linkedin.com/in/oscar-van-tol/",
-   jobs: ["principal cloud architect @betabitnl", "manager software development @virtualvaults"],
-   passions: ["my 4 Kids & wife","Azure", "C#", "PaaS", "Serverless", ".NET Core", "ASP.NET Core", "Azure Functions", "SignalR", "AzureDevOps", "Angular", "TypeScript", "giving talks & workshops"]
 }
 ```
 
-# Videos
+Hi, I'm Oscar - a father of 4 that loves technology since I can remember, I've written my first code in the 90s and never stopped. As a developer with a passion for networks/infrastructure and hardware I got excited about the potential of Microsoft Azure early on. You can find me talking about PaaS and Serverless at conferences, on blogs or youtube whenever there is time. I am working as a Principal Cloud Architect at Betabit in The Netherland, helping out customers by architecting scalable, multi tenant, secure software. Next to that I coach teams and their organisations to become more agile in the way they design, discuss, develop and release their software.
+
+
+# Blogs
+- [2021-03-27 Azure Functions in .NET 5 and beyond](https://dev.to/oscarvantol/azure-functions-in-net-5-and-beyond-26d6)
+- [2020-09-24 The state of the cloud: serverless](blog-serverless)
+- [2020-09-02 App Configuration and Azure Functions](blog-app-configuration-and-azure-functions)
+- [2020-04-29 Infrastructure as code on Azure](blog-infrastructure-as-code)
+- [2020-02-23 Writing an Azure DevOps Pipeline extension](blog-azure-piplines)
+- [2019-09-30 Orchestrating your incoming traffic like the big boys](blog-azure-front-door-service)
+- [2019-08-16 You are only paying a small part of your dev team](blog-payback-time)
+
+# Betatalks the Podcast
+Recently Rick v.d. Bosch and I started recording podcasts.
+You can find them on [podcast.betatalks.nl](https://podcast.betatalks.nl)
+
+
+# Videos (Betatalks)
 We regularly record videos called [BetaTalks](https://www.youtube.com/playlist?list=PLCLCtgDNNiJR_LDx6RT8X50VrKAH3_49B).
 
 * [BT27 - C# 9.0: What's new?](https://www.youtube.com/watch?v=3YVdFDC1O6E)
@@ -40,14 +58,7 @@ We regularly record videos called [BetaTalks](https://www.youtube.com/playlist?l
 * [BT2 - Developing Azure Functions](https://www.youtube.com/watch?v=Q3cS7955Fwg)
 * [BT1 - Highlights MS BUILD 2019](https://www.youtube.com/watch?v=PtLLxiPFi0Q)
 
-# Blogs
-- [2021-03-27 Azure Functions in .NET 5 and beyond](blog-azure-functions-in-.NET5)
-- [2020-09-24 The state of the cloud: serverless](blog-serverless)
-- [2020-09-02 App Configuration and Azure Functions](blog-app-configuration-and-azure-functions)
-- [2020-04-29 Infrastructure as code on Azure](blog-infrastructure-as-code)
-- [2020-02-23 Writing an Azure DevOps Pipeline extension](blog-azure-piplines)
-- [2019-09-30 Orchestrating your incoming traffic like the big boys](blog-azure-front-door-service)
-- [2019-08-16 You are only paying a small part of your dev team](blog-payback-time)
+
 
 ## Links
 [resources](resources)

@@ -31,7 +31,7 @@ But if you and your team tend to move a bit more carefully or if you rely on Dur
 
 ## Show me some code!
 
-The new model is a rewrite so you won't be needing to take on the known dependencies for Azure Functions. If you look at the .csproj of a new Azure Function project you will see multiple small dependencies starting with ```Microsoft.Azure.Functions.Worker```
+The new model is a rewrite so you won't be needing to take on the known dependencies for Azure Functions. If you look at the .csproj of a new Azure Function project you will see multiple small dependencies starting with *Microsoft.Azure.Functions.Worker*.
 
 ```
   <ItemGroup>
@@ -50,10 +50,11 @@ The new model is a rewrite so you won't be needing to take on the known dependen
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.0.1" OutputItemType="Analyzer" />
     <PackageReference Include="System.Net.NameResolution" Version="4.3.0" />
   </ItemGroup>
+
 ```
 
 ### The startup
-The startup with control over configuration and dependency injection was a late addition to the old model, next to that is was not mandatory. If you were using this setup it would look something like this:
+The startup with control over configuration and dependency injection was a late addition to the old model, next to that it was not mandatory. If you were using this setup it would look something like this:
 
 ```
 [assembly: FunctionsStartup(typeof(StartUp))]
@@ -104,8 +105,8 @@ await host.RunAsync();
 ```
 
 ### The function
-The functions themselves seem pretty familiar but they definitly have some differences. First thing you probably won't notice is that the attribute on the function is ```[Function]``` and not ```[FunctionName]```. 
-Next thing is that you cannot just inject ILogger anymore, it is available through an optional ```[FunctionContext]```.
+The functions themselves seem pretty familiar but they definitly have some differences. First thing you probably won't notice is that the attribute on the function is *[Function]* and not *[FunctionName]*. 
+Next thing is that you cannot just inject in the function ILogger anymore, it is available through an optional *FunctionContext*.
 
 ```
         [Function(nameof(HttpFunction1))]
@@ -151,9 +152,15 @@ The biggest change is the way output bindings are changed and not clear from the
 
 If you want to get your hands dirty, go to this [readme](https://github.com/Azure/azure-functions-dotnet-worker/blob/main/README.md) on GitHub. In the same repository you can find a lot of [Samples](https://github.com/Azure/azure-functions-dotnet-worker/tree/main/samples) that the team created. 
 
+Next to that you can also check out my [examples](https://github.com/oscarvantol/azure-functions-dotnet5-examples).
+
 > Be sure to check the [Known issues](https://github.com/Azure/azure-functions-dotnet-worker/wiki/Known-issues) prevent frustration.
 
-
 As things evolve I will post updates here.
+
+Package updates:
+- Microsoft.Azure.Functions.Worker => 1.1.0
+- Microsoft.Azure.Functions.Worker.Sdk => 1.0.2
+
 
 [oscarvantol.nl](https://oscarvantol.nl)
