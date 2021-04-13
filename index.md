@@ -14,6 +14,7 @@ Hi, I'm Oscar - a father of 4 that loves technology since I can remember, I've w
 
 
 # Blogs
+- [2021-04-14 Multiple output bindings in Azure Functions (isolated process)](https://dev.to/oscarvantol/multiple-output-bindings-in-azure-functions-isolated-process-model-46ag)
 - [2021-03-27 Azure Functions in .NET 5 and beyond](https://dev.to/oscarvantol/azure-functions-in-net-5-and-beyond-26d6)
 - [2020-09-24 The state of the cloud: serverless](blog-serverless)
 - [2020-09-02 App Configuration and Azure Functions](blog-app-configuration-and-azure-functions)
