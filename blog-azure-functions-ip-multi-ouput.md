@@ -2,7 +2,8 @@
 
 <sub>blogged: 2021.04.14</sub>
 
-# Azure Functions isolated process output bindings
+# Multiple output bindings in Azure Functions (isolated process model)
+
 The new Azure Functions Isolated Process Model is a bit different than the one you might be used to. If you are not familiar with the new model you should first read this: [2021-03-27 Azure Functions in .NET 5 and beyond](https://dev.to/oscarvantol/azure-functions-in-net-5-and-beyond-26d6)
 
 ![alt text](https://oscarvantol.nl/assets/blog-af5/azure-functions-logo-color-raster.png "Azure Functions")
@@ -41,7 +42,7 @@ But how does this work? The idea is pretty straight forward, you create a class 
         public HttpResponseData HttpResponse { get; set; }
     }
 ```
-> [source](https://github.com/Azure/azure-functions-dotnet-worker/blob/main/samples/Extensions/MultiOutput/MultiOutput.cs)
+[source](https://github.com/Azure/azure-functions-dotnet-worker/blob/main/samples/Extensions/MultiOutput/MultiOutput.cs)
 
 ## Noisy
 
@@ -67,9 +68,9 @@ My proof of concept looked like this:
         }
     }
 ```
-> [source](https://github.com/oscarvantol/azure-functions-dotnet5-examples/blob/main/ExampleFunction/MultiOutputFunction.cs)
+[source](https://github.com/oscarvantol/azure-functions-dotnet5-examples/blob/main/ExampleFunction/MultiOutputFunction.cs)
 
-Please be aware this is just little old me playing around with some code, it could be that the Azure Functions Team is thinking about different directions and might not recommend this approach. 
+> Please be aware this is just little old me playing around with some code, it could be that the Azure Functions Team is thinking about different directions and might not recommend this approach. 
 
 
 [oscarvantol.nl](https://oscarvantol.nl)
