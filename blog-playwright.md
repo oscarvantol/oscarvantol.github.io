@@ -120,7 +120,7 @@ public class TestStartUp : PageTest
 
 ## Resources
 
-- This [repo on GitHub](https://github.com/oscarvantol/playwright-nunit-di]) hosts the example code to make this work. In the future I'll add some other implementation examples that are useful for us.
+- This [repo on GitHub](https://github.com/oscarvantol/playwright-nunit-di) hosts the example code to make this work. In the future I'll add some other implementation examples that are useful for us.
 - [https://playwright.dev/](https://playwright.dev/dotnet/)
 - [Betatalks #52 - Automated testing with Playwright, NUnit and Azure Pipelines. ](https://www.youtube.com/watch?v=buORqcx9GrI)
 
