@@ -4,7 +4,7 @@
 
 # Using Bicep to link external Apis to Environments in Azure Static Web Apps
 
-I was preparing a talk called **Azure Static Web Apps and the Api Multivers** in which I wanted to hook up external apis instead of the managed functions. The first thing I wanted to do is have a front-end that I could deploy that calls some kind of api on the backend. I did not want to create the Static Web App 'the magic way' but I wanted to start with IaC, so for this I created a bicep file.
+I was preparing a talk called **Azure Static Web Apps and the Api Multiverse** in which I wanted to hook up external apis instead of the managed functions. The first thing I wanted to do is have a front-end that I could deploy that calls some kind of api on the backend. I did not want to create the Static Web App 'the magic way' but I wanted to start with IaC, so for this I created a bicep file.
 
 ``` bicep
 param location string = resourceGroup().location
