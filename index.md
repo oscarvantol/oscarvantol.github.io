@@ -9,6 +9,7 @@ Hi, I'm Oscar - a father of 4 that loves technology since I can remember, I've w
 
 
 # Blogs
+- [2022-10-09 Using Bicep to connect external Apis to environments in Azure Static Web Apps](blog-swa-bicep-linkedbackend.md)
 - [2022-07-11 Playwright, NUnit, Page Object Models and Dependencies](blog-playwright.md)
 - [2021-04-14 Multiple output bindings in Azure Functions (isolated process)](https://dev.to/oscarvantol/multiple-output-bindings-in-azure-functions-isolated-process-model-46ag)
 - [2021-03-27 Azure Functions in .NET 5 and beyond](https://dev.to/oscarvantol/azure-functions-in-net-5-and-beyond-26d6)
